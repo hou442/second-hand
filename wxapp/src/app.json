@@ -1,0 +1,73 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/favor/main",
+    "pages/msg/main",
+    "pages/mine/main",
+    "pages/myAddress/main",
+    "pages/post/main",
+    "pages/sort/main",
+    "pages/goods/main",
+    "pages/search/main",
+    "pages/myPosts/main"
+  ],
+  "usingComponents": {
+    "van-button": "/static/vant/button/index",
+    "van-icon": "/static/vant/icon/index",
+    "van-search": "/static/vant/search/index",
+    "van-grid": "/static/vant/grid/index",
+    "van-grid-item": "/static/vant/grid-item/index",
+    "van-cell": "/static/vant/cell/index",
+    "van-popup": "/static/vant/popup/index",
+    "van-nav-bar": "/static/vant/nav-bar/index",
+    "van-notice-bar": "/static/vant/notice-bar/index",
+    "van-field": "/static/vant/field/index",
+    "van-picker": "/static/vant/picker/index",
+    "van-uploader": "/static/vant/uploader/index",
+    "van-toast": "/static/vant/toast/index",
+    "van-divider": "/static/vant/divider/index"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "咸鱼",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fff",
+    "selectedColor": "ffd543",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home_hl.png"
+    },
+    {
+      "text": "收藏",
+      "pagePath": "pages/favor/main",
+      "iconPath": "static/tabs/favor.png",
+      "selectedIconPath": "static/tabs/favor_hl.png"
+    },
+    {
+      "text": "消息",
+      "pagePath": "pages/msg/main",
+      "iconPath": "static/tabs/msg.png",
+      "selectedIconPath": "static/tabs/msg_hl.png"
+    },
+    {
+      "text": "个人中心",
+      "pagePath": "pages/mine/main",
+      "iconPath": "static/tabs/mine.png",
+      "selectedIconPath": "static/tabs/mine_hl.png"
+    }],
+    "position": "bottom"
+  }
+}
